@@ -1,0 +1,20 @@
+name: Example
+version: "${project.version}"
+main: com.example.Example
+api-version: 1.18
+prefix: PSQL
+load: STARTUP
+authors: [barbarbar338]
+description: A simple example plugin showing how to connect with PostgreSQL
+website: https://338.rocks
+commands:
+    create:
+        description: Creates a dummy data
+        usage: /create
+    read:
+        description: Reads dummy data
+        usage: /read
+    delete:
+        description: Deletes dummy data
+        usage: /delete
+
